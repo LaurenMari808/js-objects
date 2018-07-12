@@ -62,8 +62,16 @@ console.log("My dog ", dog.name, " is ", dog.age, " years old and likes to ", do
             
   Console.log the object.
 */
-
-
+console.log("#3");
+var kicks = {}
+kicks.brand = "Adidas";
+kicks.color = "Cornflower Blue";
+kicks.size = 8;
+kicks.price = 75;
+kicks.buy = function(){
+    return "Now I is a cool kid!";
+}
+console.log(kicks);
 /* 
 
 4. Declare a variable named `plainBox` and set its value to be an EMPTY object.
