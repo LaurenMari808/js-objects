@@ -82,6 +82,13 @@ console.log(kicks);
 
   console.log the object
 */
+console.log("#4");
+
+var plainBox = {};
+plainBox.color = "Blue";
+plainBox.size = 4;
+plainBox.contents = [];
+console.log(plainBox);
 
 
 /*
